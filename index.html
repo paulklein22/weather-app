@@ -13,15 +13,16 @@
   <body>
     <div class="container">
       <div class="row">
-        <div class="col-md-6 mx-auto text-center bg-primary mt-5 p-5 rounded">
+        <div
+          class="col-md-6 mx-auto text-center text-light bg-success mt-5 p-5 rounded"
+        >
           <h1 id="w-location"></h1>
           <h3 id="w-desc" class="text-dark"></h3>
           <h3 id="w-string"></h3>
           <img id="w-icon" />
           <ul id="w-details" class="list-group mt-3">
             <li id="w-humidity" class="list-group-item"></li>
-            <li id="w-dewpoint" class="list-group-item"></li>
-            <li id="w-feels-like" class="list-group-item"></li>
+            <li id="w-pressure" class="list-group-item"></li>
             <li id="w-wind" class="list-group-item"></li>
           </ul>
           <hr />
@@ -33,6 +34,9 @@
           >
             Change Location
           </button>
+          <hr />
+          <p>Weather data updated every 10 minutes</p>
+          <p>Weather data provided by OpenWeather</p>
         </div>
       </div>
     </div>
